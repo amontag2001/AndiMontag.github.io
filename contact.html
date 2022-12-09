@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sweet Sisters Snacks :: Contact</title>
+		<meta charset="utf-8">
+		<link href="ss.css" rel="stylesheet">
+	</head>
+	<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="index.html">Sweet Sisters Snacks</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a><hr></li>
+				<li><a href="menu.html">View Our Menu</a><hr></li>
+				<li><a href="contact.html">Contact Us</a><hr></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Contact us today!</h2>
+			<p>Want to know more about our company, schedule a tasting, 
+				inquire about catering, or discuss private order opportunities?
+				Fill out the form below!
+			<br>
+				Required fields are marked with an asterisk *.</p>
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="FirstName">*First Name: </label>
+					<input type="text" name="FirstName" id="FirstName" 
+					required="required">
+				<label for="LastName">*Last Name: </label>
+					<input type="text" name="LastName" id="LastName"
+					required="required">
+				<label for="Email">*E-mail: </label>
+					<input type="email" name="Email" id="Email" required="required">
+				<p>What would you like to speak about?
+					Check all that apply: </p>
+				<label for="Inquire">Learn more</label>
+					<input type="checkbox" name="Inquire" id="Inquire" value="yes">
+				<label for="Tasting">Schedule a tasting</label>
+					<input type="checkbox" name="Tasting" id="Tasting" value="yes">
+				<label for="Catering">Catering</label>
+					<input type="checkbox" name="Catering" id="Catering" value="yes">
+				<label for="PrivateOrder">Private order</label>
+					<input type="checkbox" name="PrivateOrder" id="PrivateOrder" value="yes">
+				<label for="Other">Other</label>
+					<input type="checkbox" name="Other" id="Other" value="yes">
+				<label for="Comments">*Comments: </label>
+					<textarea name="Comments" id="Comments" rows="2" cols="30" required="required"></textarea>
+				<input type="submit">
+			</form>
+		</main>
+		<footer>
+			Copyright &copy; 2022 Sweet Sister Snacks<br>
+			<a href="mailto:sweetsisterssnacks@fake.com">
+				sweetsistersnacks@fake.com
+			</a>
+		</footer>
+	</div>
+	</body>
+</html>

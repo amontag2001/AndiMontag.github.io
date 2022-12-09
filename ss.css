@@ -1,0 +1,181 @@
+header {
+    background-color: #83af9b;
+    color: antiquewhite;
+    text-align: center;
+    height: 100px;
+    padding-top: 12px;
+}
+header a {
+    text-decoration: none;
+    transition: color 2s ease-in-out;
+}
+header a:link {
+    color: antiquewhite;
+}
+header a:visited {
+    color: antiquewhite;
+}
+header a:hover {
+    color: #fe4365;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    text-align: center;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #fc9d9a;
+    background-image: linear-gradient(to bottom, antiquewhite, #fc9d9a);
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 5px 5px 5px #fc9d9a;
+    border: 2px solid #fe4365;
+    background-repeat: no-repeat;
+}
+body {
+    background-color: antiquewhite;
+}
+nav {
+    font-weight: bold;
+    padding: 2em;
+    font-size: 90%;
+    float: left;
+    width: 150px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    font-size: 1.2em;
+    padding-left: 0px;
+    display: block;
+}
+nav a {
+    text-decoration: none;
+    transition: color 2s linear;
+}
+nav a:link {
+    color: #fe4365;
+}
+nav a:visited {
+    color: #cbc8a9;
+}
+nav a:hover {
+    color: #83af9b;
+}
+h2 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px #fc9d9a;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 160px;
+    background-color: white;
+    padding: 2em;
+}
+h2 {
+    color: #fe4365;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main ul {
+    list-style-image: url(heart.png);
+}
+main {
+    margin-left: 160px;
+    padding: 2px 20px 30px 10px;
+    overflow: auto;
+    display: block;
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+}
+hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fe4365;
+}
+#container-pictures {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+.pinkcookie {
+    background-color: #fe4365;
+    background-image: url(pinkcookies.jpg);
+    width: 350px; 
+    height: 350px;
+    margin: 10px;
+}
+.frostedcookie {
+    background-color: #fc9d9a;
+    background-image: url(cookies.jpg);
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+.soda {
+    background-color: #83af9b;
+    background-image: url(soda.jpg);
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+#special {
+    clear: both;
+}
+table {
+    border: 2px solid #83af9b;
+    border-collapse: collapse;
+}
+td {
+    padding: 1em;
+    border: 2px solid #83af9b;
+    text-align: center;
+}
+th {
+    padding: 1em;
+    border: 2px solid #83af9b;
+    color: #83af9b;
+}
+tr:nth-of-type(odd) {
+    background-color: antiquewhite;
+}
+* {
+    box-sizing: border-box;
+}
+h3 {
+    color: #83af9b;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 5px;
+    width: 130px;
+}
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    margin-left: 130px;
+}
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
